@@ -1,0 +1,257 @@
+html, 
+body {
+    margin: 10;
+    padding: 10;
+}
+
+.logo img {
+    max-width: 105px;
+    padding: 1.5em;
+  }
+
+body {
+    font-family: 'Helvetica';
+    padding: 10px;
+}
+
+  a {
+    text-decoration: none;
+    color: #74b9ff;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    float: left;
+  }
+  
+  .nav {
+    float: right;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin: 1.5em 2em 2em 2em;
+  }
+
+  .header {
+    background-color: #74b9ff;
+    }
+
+.header p {
+    padding: 4em;
+    margin: 7em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #74b9ff;
+    }
+
+    p {
+    font-size: 18px;
+    text-align: Center;
+    color: #74b9ff;
+    margin: 4em;
+    }
+    
+    h1 {
+        font-size: 50px;
+        text-align: Center;
+        color: #74b9ff;
+    }
+
+    .yoga img {
+        max-width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        border-radius: 5%;
+      }
+
+
+.footer
+{
+  background-color:#74b9ff;
+  padding: 1.5em;
+  font-size:15px;
+  line-height:24px;
+  color:#FFFFFF;
+}
+
+.footerlogo img {
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.footer p {
+        font-size: 14px;
+        text-align: Center;
+        color: #FFFFFF;
+        margin: 4em;
+        }
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.services img {
+    max-width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 5%;
+  }
+
+  .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 375px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navl {
+        display: none;
+        width: 100%;
+    }
+
+    .hamburger {
+        display: none;
+        
+        font-size: 50px;
+        
+        user-select: none;
+        
+        }
+        
+        .dropdown {
+
+            background-color: rgb(1, 139, 139);
+            
+            padding: 1em 0;
+            
+            position: absolute; /*WITH RESPECT TO PARENT*/
+            
+            display: none;
+            
+            border-radius: 8px;
+            
+            top: 35px;
+            
+            }
+            
+            .dropdown li + li {
+            
+            margin-top: 10px;
+            
+            }
+            
+            .dropdown li {
+            
+            padding: 0.5em 1em;
+            
+            width: 8em;
+            
+            text-align: center;
+            
+            }
+            
+            .dropdown li:hover {
+            
+            background-color: #4c9e9e;
+            
+            }
+            
+            .services:hover .dropdown {
+            
+            display: block;
+            
+            }
+
+
+@media (max-width: 375px) {
+    .nav { 
+            
+            display:none;
+            position: absolute;
+            background-color:teal;
+            text-align: center;        
+            }
+        }
+    }
+
+    .example1 {
+            margin:0;
+            padding:0;
+            list-style:none;
+        }
+        
+        li {
+            text-align:center;
+        }
+        
+        li span {
+            display:block;
+            margin:5px;
+            background:red;
+        }
+        
+        .next,
+        .prev {
+            cursor:pointer;
+        }
+        
+        .example2 {
+            margin:0;
+            padding:0;
+            list-style:none;
+            width:697px;
+            height:400px;
+            overflow:hidden;
+        }
+        
+        .example2 li {
+            text-align:left;
+            display:block;
+            width:697px;
+            height:400px;
+        }
+        
+        .carousel-pagination li {
+            display:block;
+            width:10px;
+            height:10px;
+            margin-right:5px;
+            cursor:pointer;
+            float:left;
+            background:#333;
+        }
+        
+        .carousel-pagination .carousel-pagination-active {
+            background:#ff0000;
+        }
